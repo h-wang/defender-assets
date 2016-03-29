@@ -29,6 +29,7 @@ return [
         ['148.251.0.0', '148.251.255.255'], // Hetzner Online GmbH
         ['178.239.165.0', '178.239.165.255'], // COBALT-NETWORKS English
         ['182.96.0.0', '182.111.255.255'], // CHINANET JIANGXI PROVINCE NETWORK
+        ['182.128.0.0', '182.143.255.255'], // CHINANET Sichuan province network
         ['218.64.0.0', '218.65.127.255'], // CHINANET JIANGXI PROVINCE NETWORK
         ['202.75.32.0', '202.75.63.254'], // TM VADS DC Hosting
         ['222.208.0.0', '222.215.255.255'], // CHINANET Sichuan province network
