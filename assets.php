@@ -12,6 +12,7 @@ return [
         '/product',
         '/plus',
         'whitelist.pac',
+        'mulu',
     ],
     'iprange' => [
         ['59.62.0.0', '59.63.255.255'], // CHINANET JIANGXI PROVINCE NETWORK
