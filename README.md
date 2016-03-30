@@ -9,22 +9,16 @@ use Hongliang\Defender\Voter\IpRangeVoter;
 use Hongliang\Defender\Voter\UriKeywordVoter;
 
 $defender = new Defender();
+$keywordVoter = new UriKeywordVoter();
+$ipVoter = new IpRangeVoter();
 
 $file = '[path to defender-assets/assets.php';
 if (file_exists($file)) {
     $assets = require_once($file);
-
-    $keywordVoter = new UriKeywordVoter();
     $keywordVoter->setAssets($assets['urikeywords']);
-
-    $ipVoter = new IpRangeVoter();
     $ipVoter->setAssets($assets['iprange']);
-
-    $defender->addVoter($ipVoter, Defender::FORBIDDEN)
-        ->addVoter($keywordVoter, Defender::DENY);
-} else {
-    $defender->addVoter(new IpRangeVoter(), Defender::FORBIDDEN)
-        ->addVoter(new UriKeywordVoter(), Defender::DENY);
 }
-$defender->react();
+$defender->addVoter($ipVoter, Defender::FORBIDDEN)
+    ->addVoter($keywordVoter, Defender::DENY)
+    ->react();
 ```

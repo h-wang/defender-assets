@@ -13,12 +13,15 @@ return [
         '/plus',
         'whitelist.pac',
         'mulu',
+        'ftproot',
+        '/phpmyadmin',
     ],
     'iprange' => [
         ['59.62.0.0', '59.63.255.255'], // CHINANET JIANGXI PROVINCE NETWORK
         ['59.172.0.0', '59.173.255.255'], // CHINANET Hubei province network
         ['61.146.178.0', '61.146.178.255'], // MAINT-CHINANET-GD
         ['62.210.0.0', '62.210.255.255'], // IE-POOL-BUSINESS-HOSTING Franch
+        ['68.64.128.0', '68.64.191.255'], // Vivid Hosting VIVID-HOSTING-MZ1
         ['86.123.0.0', '86.123.255.255'], // RDS Residential ROMANIA
         ['89.122.0.0', '89.122.255.255'], // Romtelecom Data Network Romania
         ['106.4.0.0', '106.7.255.255'], // CHINANET JIANGXI PROVINCE NETWORK
