@@ -23,6 +23,7 @@ return [
         ['89.122.0.0', '89.122.255.255'], // Romtelecom Data Network Romania
         ['106.4.0.0', '106.7.255.255'], // CHINANET JIANGXI PROVINCE NETWORK
         ['115.148.0.0', '115.254.255.255'], // many attempts, just block them all
+        ['116.52.0.0', '116.55.255.255'], // CHINANET YUNNAN PROVINCE NETWORK
         ['117.21.0.0', '117.21.255.255'], // CHINANET JIANGXI PROVINCE NETWORK
         ['117.41.0.0', '117.41.255.255'], // CHINANET JIANGXI PROVINCE NETWORK
         ['146.148.128.0', '146.148.255.255'], // GCHAO LLC
