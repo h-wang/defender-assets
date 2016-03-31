@@ -30,6 +30,7 @@ return [
         ['116.52.0.0', '116.55.255.255'], // CHINANET YUNNAN PROVINCE NETWORK
         ['117.21.0.0', '117.21.255.255'], // CHINANET JIANGXI PROVINCE NETWORK
         ['117.41.0.0', '117.41.255.255'], // CHINANET JIANGXI PROVINCE NETWORK
+        ['121.204.0.0', '121.207.255.255'], // CHINANET Fujian province network
         ['146.148.128.0', '146.148.255.255'], // GCHAO LLC
         ['148.251.0.0', '148.251.255.255'], // Hetzner Online GmbH
         ['178.239.165.0', '178.239.165.255'], // COBALT-NETWORKS English
