@@ -17,6 +17,7 @@ return [
         '/phpmyadmin',
     ],
     'iprange' => [
+        ['5.62.0.0', '5.62.3.255'], // Privax LTD UK
         ['59.62.0.0', '59.63.255.255'], // CHINANET JIANGXI PROVINCE NETWORK
         ['59.172.0.0', '59.173.255.255'], // CHINANET Hubei province network
         ['61.146.178.0', '61.146.178.255'], // MAINT-CHINANET-GD
