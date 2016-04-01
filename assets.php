@@ -39,6 +39,7 @@ return [
         ['182.128.0.0', '182.143.255.255'], // CHINANET Sichuan province network
         ['188.161.0.0', '188.161.39.255'], // Palestine Telecommunications Company
         ['202.75.32.0', '202.75.63.254'], // TM VADS DC Hosting
+        ['210.38.128.0', '210.38.143.255'], // Zhanjiang Ocean University
         ['222.208.0.0', '222.215.255.255'], // CHINANET Sichuan province network
         ['223.3.0.0', '223.3.255.255'], // Southeast University
     ],
